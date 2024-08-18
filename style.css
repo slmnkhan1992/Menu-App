@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,9 +14,8 @@ body {
 
 
 #header {
-    width: 70%;
-    height: 600px;
-    border: 2px solid black;    
+    width: 80%;
+    height: 800px; 
     text-align: center;
 }
 
@@ -48,31 +47,58 @@ body {
     font-size: 2.2rem;
 }
 
-#cards {
+.cards {
     width: 100%;
     height: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#first-card {
+.first-card {
     width: 50%;
     height: 150px;
     display: flex;
 }
 
 #image-area {
-    width: 25%;
+    width: 35%;
     height: 100%;
 }
 
-#image {
+#image-area img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    overflow: hi;
+    border: 2px solid goldenrod;
+    border-radius: 6px;
 }
 
 #inner-material {
-    width: 75%;
+    width: 65%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+#amount {
+    color: goldenrod;
+    margin-left: 80px;
+}
+
+#item {
+    font-size: 1.5rem;
+    padding: 0px 10px;
+    color: rgb(104, 102, 102);
+}
+
+#description {
+    color: grey;
+    text-align: left;
+    padding: 0px 10px;
+
+
+}
+
+
+
